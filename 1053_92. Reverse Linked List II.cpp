@@ -76,6 +76,11 @@ public:
         //final got in step 1 is -> 1-3-2-4-5
         //step 2 is -> 1-4-3-2-5
         
+        
+        
+        // new approach 
+        // by using thr stack we can reverse the list
+        
 
     }
     return dummy->next;
