@@ -4,18 +4,25 @@ public:
   
   void merge(vector<int> &arr, int s, int e )
   {
+    
       int mid= s+ (e-s)/2;
       int l = mid-s+1;
       int r = e-mid;
 
+      // creating the new array 
       int * left = new int [l];
       int * right = new int[r];
       int k = s;
+    
+      // copy the left part
       for(int i =0; i<l;i++)
       {
           left[i]=arr[k++];
       }
       k = mid+1;
+    
+       //copy right part 
+    
       for(int i=0; i<r;i++)
       {
           right[i]=arr[k++];
@@ -23,6 +30,9 @@ public:
       int i =0;
       int j=0;
       k =s;
+      
+    //merging the element in final array 
+    
       while(i<l && j<r)
       {
           if(left[i]<right[j])
@@ -44,6 +54,8 @@ public:
           arr[k++]= right[j++];
 
       }
+    
+    //delete the created left and right array 
 
       delete []left;
       delete []right;
@@ -52,6 +64,8 @@ public:
 
   void mergesort(vector<int> & arr, int s, int e)
    {
+    
+    // base case ;
        if(s>=e)
        {
            return ;
