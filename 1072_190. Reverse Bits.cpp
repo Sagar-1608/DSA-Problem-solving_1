@@ -13,7 +13,7 @@ public:
 
             n >>= 1; // right shift the main number 
 
-            b++; // for next left is 32--30--29 and so on 
+            b++; // for next left is 32--30--29 and so on   // for reducing the value of (31-b) 
         }
         
         return a;
