@@ -17,8 +17,8 @@ public:
             return 0;
         }
         else{
-            int ldepth= maxi(root->left);
-            int rdepth= maxi(root->right);
+            int ldepth= maxi(root->left);//for the left side 
+            int rdepth= maxi(root->right); //for the right side
             
             return max(ldepth, rdepth)+1;
         }
