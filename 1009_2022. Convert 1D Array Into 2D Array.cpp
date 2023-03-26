@@ -12,7 +12,7 @@ public:
             for (int j = 0; j < col; ++j)
                 ret[i][j] = original[col * i + j];
 
-                //formula positions[i][j]= num.ofcol in linear array *ith col + jth row  
+                //formula positions[i][j]= num.ofcol in linear array *ith col + jth row
 
         }
         return ret;
