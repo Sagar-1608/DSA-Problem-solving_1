@@ -17,11 +17,11 @@ public:
    bool cheak(TreeNode* p, TreeNode* q)
    {
        
-
+//Base case
        
     if(p == NULL && q == NULL) return true;
     if(p == NULL || q == NULL || (p->val != q->val)) return false;
-
+//recursion
     return cheak(p->left, q->left) && cheak(p->right, q->right);
            
       
