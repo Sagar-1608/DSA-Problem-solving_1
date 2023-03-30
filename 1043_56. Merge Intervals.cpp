@@ -5,7 +5,7 @@ public:
         vector<vector<int>> ans;
         
 
-        
+        //sorting the given vector 
         sort(intervals.begin(),intervals.end());
         vector<int> temp = intervals[0];
 
