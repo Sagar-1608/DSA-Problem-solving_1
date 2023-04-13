@@ -32,7 +32,10 @@ public:
 */
 
         // approach 2 without space
-
+        
+        //new apprach
+        
+        .
         int j =0;
 
         for(int i =0; i<s.length();i++)
@@ -50,4 +53,5 @@ public:
         return s.substr(0,j);
         
     }
+
 };
