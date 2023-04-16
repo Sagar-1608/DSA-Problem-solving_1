@@ -25,6 +25,8 @@ class Solution {
 ListNode *helper(ListNode *headA, ListNode *headB)
 {
     
+    //finding the intersection 
+    
     while(headA && headB)
     {
        
@@ -43,11 +45,13 @@ public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
         int lenA = getLength(headA);
         int lenB = getLength(headB);
+        
+        // calculate the length of both length
         int diff = abs(lenA - lenB);
 
 
 
-       // equate the length of both list 
+       // equate the length of both list according to there length 
         if (lenA>lenB)
         {
             while(diff--)
