@@ -45,6 +45,7 @@ public:
     //     return ans;
 
 
+        //add new approach 
     vector<int>ans;
       int carry=0;
       
