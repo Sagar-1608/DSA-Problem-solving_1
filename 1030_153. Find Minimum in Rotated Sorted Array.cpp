@@ -9,7 +9,7 @@ public:
         int e = nums.size()-1;
         
         while(s<e){
-            //find mid
+            //find mid for further use 
             int mid = s + (e-s)/2;
             //condition for already sorted array but not rotated
             if(nums[s]<nums[e]){
