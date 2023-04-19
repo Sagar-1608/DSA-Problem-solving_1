@@ -27,6 +27,7 @@ public:
         return ind;
 
       }
+      //adding new approach
 
 int last_acc(vector<int>& arr, int target)
       {
