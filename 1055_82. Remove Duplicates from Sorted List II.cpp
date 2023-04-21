@@ -37,6 +37,8 @@ public:
             temp=temp->next;
         } 
         return dummy->next;
+	    
+	    //new approach added
 
     //     ListNode *dummy=new ListNode(0,head);
     //    ListNode *prev=dummy;
