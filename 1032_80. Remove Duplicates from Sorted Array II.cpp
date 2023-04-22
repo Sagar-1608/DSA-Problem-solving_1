@@ -3,7 +3,7 @@
 class Solution {
 public:
     int removeDuplicates(vector<int>& arr) {
-
+// using binary search 
     
        int i=0;
         for(auto e: arr)
