@@ -11,6 +11,8 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+
+//code added
 class Solution {
 int totalNode(TreeNode* root)
 {
