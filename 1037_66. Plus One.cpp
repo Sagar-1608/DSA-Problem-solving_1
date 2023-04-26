@@ -4,6 +4,7 @@ public:
     vector<int> plusOne(vector<int>& arr) {
 
         int n = arr.size()-1;
+        // by using binary search
         
         while(n>=0)
     {
