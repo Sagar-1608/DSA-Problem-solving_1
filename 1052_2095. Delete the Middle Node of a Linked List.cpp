@@ -12,11 +12,15 @@
 class Solution {
 public:
     ListNode* deleteMiddle(ListNode* head) {
+        
+        
         if(head==NULL || head->next==NULL ) return NULL;
          
         ListNode *slow = head;
         ListNode *fast=head;
         ListNode *prev = NULL;
+        
+        // slow cover 1 pointy at that time fast cover 2 point 
         while (fast && fast->next)
         {  
             prev=slow;
