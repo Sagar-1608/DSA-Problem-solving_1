@@ -3,6 +3,7 @@
 
 class Solution {
 public:
+    // helper function 
 int findSuccessPoint(vector<int>& potions, long long success, int spell)
 {
     int s = 0;
