@@ -10,7 +10,8 @@ public:
             long long count=0;
             for(int i=0;i<time.size();++i){
                 count+=mid/time[i];  // checking if that mid can fultill totaltrips or not by adding all 
-            //  possible no of trips performed by all buses with mid time 
+            //  possible no of trips performed by 
+                //all buses with mid time 
                 
             } 
             if(count>=totalTrips){
