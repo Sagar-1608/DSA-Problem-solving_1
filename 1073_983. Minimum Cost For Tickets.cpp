@@ -8,6 +8,7 @@ public:
         vector<int> dp(366, INT_MAX);
         dp[0] = 0;
         int j = 0;
+        //using loop and conditions
         for (int i = 1; i <= 365; i++) {
             if (j < n && i == days[j]) {
                 dp[i] = min(dp[i], dp[i-1] + costs[0]);
