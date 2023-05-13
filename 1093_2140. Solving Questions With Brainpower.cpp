@@ -5,7 +5,7 @@ public:
     long long mostPoints(vector<vector<int>>& arr) {
 
 
-
+     // in this approach we use dynamic programming logig
        
        int n = arr.size();
 
