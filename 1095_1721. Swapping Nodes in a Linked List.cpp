@@ -9,8 +9,11 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+
 class Solution {
 public:
+       
+       /*
        ListNode* FindNodes(ListNode* head, int position) 
        {
            for(int i = 1 ; i<position;i++)
@@ -32,18 +35,44 @@ public:
            return i;
     
        }
+       */
     
     ListNode* swapNodes(ListNode* head, int k) {
 
-        int len = size(head);
+//         int len = size(head);
      
-        ListNode* kBegin =  FindNodes(head, k) ;
-        ListNode* kEnd = FindNodes(head, (len-k+1)) ;
+//         ListNode* kBegin =  FindNodes(head, k) ;
+//         ListNode* kEnd = FindNodes(head, (len-k+1)) ;
 
-        int temp = kBegin->val;
-        kBegin->val = kEnd->val;
-        kEnd->val= temp; 
+//         int temp = kBegin->val;
+//         kBegin->val = kEnd->val;
+//         kEnd->val= temp; 
 
+//         return head;
+           
+           
+           
+           
+           
+        // optimized solution 
+        ListNode*  temp = head;
+        ListNode* kEnd = head ;
+        ListNode* kBegin ;
+
+        while(--k)
+        {
+            temp=temp->next;
+        }
+        kBegin = temp;
+        while(temp->next)
+        {
+            temp=temp->next;
+            kEnd = kEnd->next;
+        }
+
+        swap(kEnd->val,kBegin->val);
+
+        
         return head;
 
         
