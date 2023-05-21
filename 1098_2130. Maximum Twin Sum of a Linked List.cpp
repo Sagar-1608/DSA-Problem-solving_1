@@ -20,6 +20,9 @@ public:
         ListNode* slow = head;
         ListNode* fast=head;
 
+        
+        
+        // go to middle node 
         while(fast)
         {
             slow = slow->next;
@@ -28,7 +31,7 @@ public:
 
 
 
-       
+       // reverse the the linked list form middle 
         ListNode* current = slow;
         ListNode *prev = NULL, *next = NULL;
  
@@ -43,7 +46,7 @@ public:
 
 
 
-     
+        // calculating the sum of pair of linked list  
         while(slow)
         {
             int sum = head->val+slow->val;
