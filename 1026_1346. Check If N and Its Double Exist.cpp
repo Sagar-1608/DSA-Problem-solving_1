@@ -21,6 +21,7 @@ public:
             int s = 0;
             int e = n-1,mid;
 
+            // using binary search 
             while(s<=e)
             {
                 mid = s+(e-s)/2;
