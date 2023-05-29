@@ -2,7 +2,7 @@
 class Solution {
 public:
     bool isToeplitzMatrix(vector<vector<int>>& matrix) {
-
+// using loop and conditions 
       int row = matrix.size();
       int col = matrix[0].size();
 
