@@ -10,7 +10,7 @@ public:
         int e=n-1;
         int mid;
          
-
+// using the binary search 
         while(s<=e)
         {
 
