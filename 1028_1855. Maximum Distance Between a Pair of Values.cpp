@@ -5,6 +5,9 @@ public:
         int dis=0;
         for (int i=0; i<nums1.size(); i++){
             int low= i+1; int high= nums2.size()-1;// int midi=i;
+            
+            
+//             by using the binary search 
             while (low<=high){
                 int mid= low+ (high-low)/2;
                 if (nums1[i]>nums2[mid]){
