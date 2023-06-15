@@ -18,6 +18,7 @@ public:
 
   //    approach 2 O(log(n))
   // binary search
+        // binary search apporach 
 
   int  long long  s = 0;
   int long long e = n;
