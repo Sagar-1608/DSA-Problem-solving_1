@@ -16,6 +16,7 @@ public:
 
 
         // by using sort method
+        // in this method we use sort function 
 
         sort(s.begin(),s.end());
 
