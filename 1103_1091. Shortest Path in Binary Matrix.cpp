@@ -1,4 +1,6 @@
 // 1091. Shortest Path in Binary Matrix
+// in this qeastion we used dp 
+
 class Solution {
 public:
     int shortestPathBinaryMatrix(vector<vector<int>>& grid) {
