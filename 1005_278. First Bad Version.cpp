@@ -7,6 +7,7 @@ public:
     int firstBadVersion(int n) {
 
         int s = 1, e = n , mid, ans=0 ;
+        // using binary search 
 
         while (s<=e)
         {
