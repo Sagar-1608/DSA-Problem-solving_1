@@ -3,6 +3,7 @@ class Solution {
 public:
     int minNumber(vector<int>& nums1, vector<int>& nums2) {
         vector<int> v1(10,0),v2(10,0);
+        // here we use graph
         for(auto &i: nums1)v1[i]++;
         for(auto &i: nums2)v2[i]++;
         int i,j;
