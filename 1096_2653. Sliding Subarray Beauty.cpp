@@ -17,6 +17,7 @@ public:
 
         }
 
+        // by using Sliding window 
         int start =0;
 
         for(int i=k-1 ;i<n ;i++)
