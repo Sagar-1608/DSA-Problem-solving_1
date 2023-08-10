@@ -9,7 +9,7 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-// O(n) time and O(h) space
+// complexity =O(n) time and O(h) space
 class Solution {
 public:
     void helper(TreeNode* root, int& minDiff, int& prevVal) {
