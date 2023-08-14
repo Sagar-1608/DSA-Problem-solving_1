@@ -1,4 +1,6 @@
 // 605. Can Place Flowers
+//by using conditions 
+// T=O(n) 
 class Solution {
 public:
     bool canPlaceFlowers(vector<int>& flowerbed, int n) {
