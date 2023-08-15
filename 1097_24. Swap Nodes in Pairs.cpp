@@ -14,6 +14,7 @@ public:
     ListNode* swapPairs(ListNode* head) {
 
         // by using the recursive way 
+        // T= O(N)
         
     if(head==NULL || head->next == NULL) return head ;
 
