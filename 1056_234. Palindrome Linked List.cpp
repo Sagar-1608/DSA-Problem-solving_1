@@ -44,7 +44,7 @@ public:
 
 
     //   approch 1 using extra space T=O(n) S=O(n)
-      /* if(head==NULL) return true;
+       if(head==NULL) return true;
         vector<int> arr;
         ListNode * temp= head;
         while(temp)
@@ -66,7 +66,7 @@ public:
                 e--;
             }
         }
-        return true;*/
+        return true;
 
 
 
