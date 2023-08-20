@@ -22,6 +22,8 @@ public:
 
 // return ans;
 // with out space 
+          // not use any apace 
+          // T(n) = O(n)
 int majorityElement(vector<int>& arr) {
         int ele=arr[0];
         int count=0;
