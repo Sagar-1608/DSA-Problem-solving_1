@@ -2,8 +2,10 @@
 class Solution {
 public:
     bool judgeSquareSum(int c) {
+        
         long long int s=0,e=sqrt(c);
         long long int sqrt=1;
+        // by using binary search 
         while(s<=e){
             sqrt=s*s+e*e;
             if(sqrt==c){
