@@ -6,6 +6,8 @@ public:
         int ans=-1;
         int k=0;  
         int niddilesize=needle.size();
+
+        // using binary search 
         while(k<haystack.size()){
         // Finding first character of needle in haystack .
         auto itr=find(haystack.begin()+k,haystack.end(),needle[0]);
