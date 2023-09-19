@@ -1,6 +1,8 @@
 // 1441. Build an Array With Stack Operations
 class Solution {
 public:
+
+// arry operation using satck
     vector<string> buildArray(vector<int>& target, int n) {
 
 
