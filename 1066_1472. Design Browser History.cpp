@@ -1,4 +1,5 @@
 // 1472. Design Browser History
+// by using the vector of string 
 class BrowserHistory {
 public:
     BrowserHistory(string homepage) {
