@@ -3,6 +3,7 @@ class Solution {
 public:
     int removeElement(vector<int>& arr, int val) {
         int i=0;
+        //
         for(auto e: arr)
         {
            if(e!=val) 
