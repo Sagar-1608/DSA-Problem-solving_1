@@ -1,5 +1,6 @@
 // 509. Fibonacci Number
 class Solution {
+// by using recursion
 public:
     int fib(int n) {
         if(n<=1)
