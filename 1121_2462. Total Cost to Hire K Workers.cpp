@@ -22,7 +22,8 @@ public:
             
             int a = pq1.size() > 0 ? pq1.top() : INT_MAX;
             int b = pq2.size() > 0 ? pq2.top() : INT_MAX;
-            
+
+            // use 
             if(a <= b){
                 ans += a;
                 pq1.pop();
