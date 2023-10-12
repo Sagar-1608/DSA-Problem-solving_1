@@ -5,6 +5,8 @@ public:
     int partitionString(string s) {
 //         by uasing the created map
         int last_pos[26] = {}, partitions = 0, last_end = 0;
+
+        // here use the concept of dp
         for (int i = 0; i < s.length(); i++) {
             if (last_pos[s[i] - 'a'] >= last_end) {
                 partitions++;
