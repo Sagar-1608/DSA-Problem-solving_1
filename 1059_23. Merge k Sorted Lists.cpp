@@ -17,6 +17,8 @@ ListNode* mergeTwoLists(ListNode* &list1, ListNode* &list2) {
        
 	    // if list1 happen to be NULL
 		// we will simply return list2.
+	// by using the 3 loop
+	
         if(list1 == NULL)
             return list2;
 		
