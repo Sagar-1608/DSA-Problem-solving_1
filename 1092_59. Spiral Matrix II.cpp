@@ -16,7 +16,8 @@ public:
         int startCol = 0;
         int endRow = row-1;
         int endCol  = col-1; 
-        
+
+        // here total count is m*n
         while(count<total)
         {  
             // printing starting row 
