@@ -13,6 +13,12 @@ class Solution {
 public:
     ListNode* sortList(ListNode* head) {
 
+        // by using the extra space 
+        // convert list in an array 
+        // sort array 
+        // insert in list 
+        // return 
+
         if(head==NULL || head->next == NULL) return head;
         ListNode * temp =head;
         vector<int> arr;
