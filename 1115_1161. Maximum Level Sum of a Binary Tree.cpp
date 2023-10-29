@@ -17,7 +17,7 @@ public:
           int ans = -1;
           int lvl = 0;
           int maxSum = INT_MIN;
-          queue<TreeNode*> q;
+          queue<TreeNode*> q;   
 
           q.push(root);
 
