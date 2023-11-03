@@ -10,6 +10,7 @@
  * };
  */
 // complexity =O(n) time and O(h) space
+
 class Solution {
 public:
     void helper(TreeNode* root, int& minDiff, int& prevVal) {
