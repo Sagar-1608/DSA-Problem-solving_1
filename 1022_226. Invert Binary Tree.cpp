@@ -15,6 +15,7 @@ public:
     TreeNode * invert(TreeNode * root)
     { 
         if(!root) return root;
+       // swap the left and right 
         TreeNode * temp= root->left;
         root->left = root->right;
         root->right = temp;
