@@ -4,6 +4,7 @@ class Trie {
     public:
    unordered_map<string,int>mpp,mp;
     Trie() {
+
         
     }
     
