@@ -2,6 +2,7 @@
 class Solution {
 public:
     int singleNonDuplicate(vector<int>& arr) {
+        // by using binary srearch
         int n =arr.size();
         int s =0;
         int e = n-1,mid;
