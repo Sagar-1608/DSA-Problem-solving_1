@@ -7,7 +7,8 @@ public:
         
         int left = 0;
         int right = people.size() - 1;
-        
+
+        // by using binary search 
         while(left <= right){
             int sum = people[left] + people[right];
             if(sum <= limit){
