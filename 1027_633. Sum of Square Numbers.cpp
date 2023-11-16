@@ -9,6 +9,7 @@ public:
         while(s<=e){
             sqrt=s*s+e*e;
             if(sqrt==c){
+                
                 return true;
             }
             else if(sqrt>c){
