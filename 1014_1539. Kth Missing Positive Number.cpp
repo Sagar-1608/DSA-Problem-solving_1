@@ -10,6 +10,7 @@ public:
         while (s<e )
         {
             int mid = s + (e-s)/2;
+            
            
             if(arr[mid]-mid-1<k)
             {
