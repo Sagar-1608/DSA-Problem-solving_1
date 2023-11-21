@@ -4,7 +4,7 @@ public:
     vector<map<int,int>>A;
     // snap_id
     int s_id = 0;
-
+ // by using Dp
     SnapshotArray(int length) {
         
         // resizing the array to the given length
