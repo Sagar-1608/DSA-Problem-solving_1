@@ -7,6 +7,7 @@ public:
         vector<int>a(n,-1);
         int l=0,r=0;
         long long sum=0;
+      //  by using binary searching
         while(r<n){
             sum += v[r];
             if((r-l+1)==(2*k+1)){
