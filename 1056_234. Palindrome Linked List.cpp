@@ -71,7 +71,7 @@ public:
 
 
         // approch2 reverse the list and cheak T=O(n) S=O(0)
-
+// with out space
         if(head== NULL || head->next ==NULL)  return true;
        
         
