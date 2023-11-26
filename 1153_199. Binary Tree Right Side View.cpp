@@ -22,6 +22,8 @@ public:
     solve(root->right,ans,lvl+1);
     solve(root->left,ans,lvl+1);
  }
+
+//by using recursion
     vector<int> rightSideView(TreeNode* root) {
         vector<int> ans;
         solve(root,ans,0);
