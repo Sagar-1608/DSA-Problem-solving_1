@@ -8,6 +8,7 @@ public:
         
         string temp = ""; // temproray string that stores all possible answer
         
+        
         for(int i = 0; i < n; i++) // start traversing from the array
         {
             int j = i; // declare anthor pointer that will move
