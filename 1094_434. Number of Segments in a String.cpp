@@ -3,6 +3,7 @@
 class Solution {
 public:
     int countSegments(string s) {
+        
 
         char prev=' ';
         int count=0;
