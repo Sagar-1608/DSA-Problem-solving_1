@@ -9,8 +9,10 @@ public:
             int extra_days = n % 7;
             int money_to_add = w + 1;
             for (int i = 0; i < extra_days; ++i) {
+               //mony to add
                 money += money_to_add;
                 money_to_add += 1;
+                
             }
         }
         return money;
