@@ -2,6 +2,7 @@ class Solution {
 public:
     int largestAltitude(vector<int>& gain) {
 
+        // define ans and pre sum 
         int ans = INT_MIN;
         int preSum = 0;
 
