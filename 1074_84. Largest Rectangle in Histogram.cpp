@@ -48,6 +48,8 @@ public:
 
         int n = heights.size();
 
+        // by using the two function 
+
         
 
          vector<int> next(n);
