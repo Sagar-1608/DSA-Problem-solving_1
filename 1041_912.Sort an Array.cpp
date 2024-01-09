@@ -31,7 +31,7 @@ public:
       int j=0;
       k =s;
       
-    //merging the element in final array 
+    //merging the element in final array .
     
       while(i<l && j<r)
       {
