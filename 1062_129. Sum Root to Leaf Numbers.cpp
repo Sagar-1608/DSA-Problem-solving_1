@@ -14,6 +14,8 @@
 class Solution {
 public:
 int total;
+//by using recursion
+
    void solve(TreeNode* root ,int sum)
    {
        if(root==NULL) return ;
