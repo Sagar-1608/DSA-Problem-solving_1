@@ -18,6 +18,9 @@ public:
         int n=grid.size();
         unordered_map<string,int> mp;
 
+
+
+        
         // mapping the rows with the help of mapping function to create keys
         for(int i=0; i<n;i++)
             mp[mapping(grid[i])]++;
