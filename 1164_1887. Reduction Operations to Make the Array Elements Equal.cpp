@@ -5,7 +5,7 @@ public:
         int n = nums.size(); // Get the size of the input vector
         int sum = 0, temp = 0; // Initialize variables to keep track of sum and temporary count
 
-        // Iterate through the sorted vector
+      
         for (int i = 1; i < n; i++) {
             // Check if the current element is different from the previous one
             if (nums[i] != nums[i - 1]) {
