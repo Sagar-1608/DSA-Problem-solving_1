@@ -1,4 +1,5 @@
 // 70. Climbing Stairs
+//  by using cadence algorithm 
 
 class Solution {
 public:
