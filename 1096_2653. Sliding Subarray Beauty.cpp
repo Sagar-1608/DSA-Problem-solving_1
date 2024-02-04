@@ -1,6 +1,8 @@
 // 2653. Sliding Subarray Beauty
 
 class Solution {
+
+
 public:
     vector<int> getSubarrayBeauty(vector<int>& arr, int k, int x) {
 
