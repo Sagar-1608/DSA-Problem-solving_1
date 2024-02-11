@@ -23,6 +23,7 @@ public:
 
 
         //approach 2 with out stack 
+        // and reduce the momory 
 
 
         int i =0 , j=0;
