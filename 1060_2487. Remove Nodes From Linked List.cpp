@@ -22,6 +22,9 @@ ListNode * reverse(ListNode * head)
     return chotahead;
 
 
+    
+
+
 }
 public:
     ListNode* removeNodes(ListNode* head) {
