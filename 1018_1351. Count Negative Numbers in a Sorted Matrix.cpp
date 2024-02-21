@@ -1,5 +1,6 @@
 // 1351. Count Negative Numbers in a Sorted Matrix
 
+
 class Solution {
 public:
     int countNegatives(vector<vector<int>>& mat ) {
