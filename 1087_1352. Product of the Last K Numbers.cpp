@@ -29,7 +29,7 @@ public:
 };
 */
 
-// in above method the thinme required is O(k)
+// in above method the thinme required is O(k)kk
 // reduce this time and do in o(1) time 
 // by using mentain the prefix product array 
 
