@@ -16,6 +16,8 @@ public:
         }
         return Sum(index, n, hi) <= maxSum ? hi : lo;
     }
+
+
 private:
     long Sum(int index, int n, int val) {
         return SumSide(index + 1, val) + SumSide(n - index, val) - val;
