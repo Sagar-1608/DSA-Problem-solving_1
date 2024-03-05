@@ -10,6 +10,9 @@ class Solution {
       const int m = (l + r) / 2;
       if (shipDays(weights, m) <= days)
         r = m;
+
+
+       
       else
         l = m + 1;
     }
