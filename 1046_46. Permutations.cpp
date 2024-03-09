@@ -10,8 +10,6 @@ void solve(vector<int> arr, vector<vector<int>> & ans, int index)
         return;
     }
 
-    
-
     for(int i = index; i<arr.size(); i++)
     {
         // swap with each element and with each position 
