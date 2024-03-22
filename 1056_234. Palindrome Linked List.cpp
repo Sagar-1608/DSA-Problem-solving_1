@@ -9,6 +9,7 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+// new solution added 
 class Solution {
 private:
 ListNode * getmid(ListNode * head)
