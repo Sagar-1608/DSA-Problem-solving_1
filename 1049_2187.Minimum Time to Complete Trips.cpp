@@ -14,6 +14,8 @@ public:
                 //all buses with mid time 
                 
             } 
+
+            
             if(count>=totalTrips){
                 ans=min(ans,mid); // minimising time
                 right=mid;
