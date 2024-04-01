@@ -21,6 +21,9 @@ public:
                 if(nums[mid]<= target and nums[high]>= target) low=mid+1;
                 else high=mid-1;
 
+
+
+                
             }
         }
         return -1;
