@@ -1,5 +1,6 @@
 // 434. Number of Segments in a String
 
+
 class Solution {
 public:
     int countSegments(string s) {
