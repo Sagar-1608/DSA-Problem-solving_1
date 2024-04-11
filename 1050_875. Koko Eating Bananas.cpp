@@ -1,5 +1,6 @@
 
 class Solution {
+
 public:
     bool eatAll(vector<int>&piles, int h,int speed){
         int curr=0;
