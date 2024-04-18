@@ -12,6 +12,7 @@ public:
             root->left = new TreeNode(val);
             root->right = new TreeNode(val);
             root->left->left = lTemp;
+            
             root->right->right = rTemp;
 
             return root;
