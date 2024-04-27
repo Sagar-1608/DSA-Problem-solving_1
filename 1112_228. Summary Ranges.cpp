@@ -11,8 +11,7 @@ public:
         
         for(int i = 0; i < n; i++) // start traversing from the array
         {
-            int j = i; // declare anthor pointer that will move
-            
+            int j = i; // declare anthor pointer
             // run that pointer until our range is not break
             while(j + 1 < n && arr[j + 1] == arr[j] + 1)
             {
