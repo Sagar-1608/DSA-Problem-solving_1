@@ -8,8 +8,7 @@ public:
         int s=0;
         int  n= arr.size();
         int e=n-1;
-        int mid;
-
+        int mid
 
 
         
