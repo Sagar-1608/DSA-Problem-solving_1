@@ -11,6 +11,7 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+
 class Solution {
 private:
 ListNode * head;
