@@ -6,6 +6,7 @@ public:
         int ans=-1;
         int k=0;  
         int niddilesize=needle.size();
+        
 
         // using binary search 
         while(k<haystack.size()){
