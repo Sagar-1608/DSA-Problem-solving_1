@@ -7,6 +7,7 @@ public:
         int e = arr.size();
         int ans =0;
 
+        // using binary sesrch
         while (s<e )
         {
             int mid = s + (e-s)/2;
