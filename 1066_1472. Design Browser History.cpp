@@ -12,6 +12,7 @@ public:
         history.resize(cur_idx + 1);
         history.push_back(url);
         cur_idx++;
+        
     }
     
     string back(int steps) {
